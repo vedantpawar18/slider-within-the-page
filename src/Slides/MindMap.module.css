@@ -1,0 +1,44 @@
+.box{
+    /* border: 1px solid black; */
+    height: 460px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxLeft{
+    /* border: 1px solid pink; */
+    width: 45%;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+.boxRight{
+    /* border: 1px solid blue; */
+    width: 45%;
+    height: 100%;
+   
+}
+
+.boxRight>img{
+    height: 430px;
+    width: 430px;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.boxTop p{
+    color:#28a0f3 ;
+    font-weight: 700;
+    font-size: 36px;
+    margin: 20px 0px;
+}
+
+.selectImg{
+    cursor: pointer;
+}
